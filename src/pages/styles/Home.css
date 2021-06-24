@@ -1,24 +1,55 @@
-.Home {
-  width: 100%;
-  min-height: calc(100vh - 60px);
-  background: url('../../images/stars.svg'), #1B1B25;
-  background-repeat: repeat;
-
-  color: #ffffff;
-
-  display: flex;
-  align-items: center;
+:root {
+    --celeste: #00aae4;
 }
 
-.Home__col {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.Home__container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-@media screen and (min-width: 768px) {
-  .Home__col {
-    align-items: flex-start;
-  }
+.Home__images {
+    width: 200px;
+}
+
+.figure-right {
+    text-align: center;
+}
+
+.form-control {
+    width: 350px;
+}
+
+.Home__left{
+    padding-right: 30px;
+} .Home__right {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    box-shadow: 1px 1px 11px 0px var(--celeste);
+    border: none;
+}
+
+.btn-info {
+    height: 35px;
+    line-height: .4;
+    font-weight: bold;
+}
+
+.Home__footer {
+    font-size: .7rem;
+}
+
+.Home__social_bottom {
+    display: flex;
+    justify-content: center;
+}
+.Home__social_bottom div {
+    margin: 0 10px 0 10px;
 }

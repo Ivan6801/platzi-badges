@@ -1,0 +1,25 @@
+@media screen and (max-width: 580px) {
+    .Home__container {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        margin-top: 80px;
+    }
+    .Home__right {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .form-control {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .form-control {
+        width: 250px;
+    }
+}
+
