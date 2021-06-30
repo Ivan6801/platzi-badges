@@ -1,0 +1,39 @@
+@media screen and (max-width: 2560px) {
+    .Registro__input {
+        display: flex;
+    }
+    .Registro-control {
+        margin: 10px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .Registro__input {
+        display: flex;
+        flex-direction: column;
+    }
+    .Registro-control {
+        margin: 0px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .Registro-control {
+        margin: 0px;
+        width: 350px;
+    }
+}
+@media screen and (max-width: 410px) {
+    .Registro-control {
+        margin: 0px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .Registro-control {
+        margin: 0px;
+        width: 250px;
+    }
+}
